@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page title</title>
+	<link rel="stylesheet" href="./text.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a class="logo" href="#home">
+				  <img src="./images/logo.png" alt="logo" />
+			</a>
+			<nav>	
+			 <ul class="nav-bar"><div class="bg"></div>
+				<li><a class="	nav-link" href="#home">Home</a></li>
+				<li><a class="nav-link" href="#about">About Us</a></li>
+				<li><a class="nav-link" href="#contact">Contacts</a></li>
+				<li><a class="nav-link" href="#login">Login <strong>/</strong> SignUp</a></li>
+			 </ul>
+				
+
+			</nav>
+		</header>
+
+		<main>
+			<!--─────────────────Home────────────────-->
+			<div id="home">
+				<div class="filter"></div>
+				<section class="intro">
+					<h3>Paul Depay fc.<hr></h3>
+					<p>Short Description.</p>
+					<p>Something more about yourself.</p>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+							 
+					<!--────social media links─────-->
+							
+					<div class="social-media">
+						<a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
+						<a href="#" target="_blank"><i class='fab fa-facebook'></i></a>
+						<a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+					</div>		
+				</section> 
+			</div>  
+					   
+			<!--───────────────About-Us───────────────-->
+			<div id="about"> 
+				<h3>About Us.<hr></h3>
+				<p>We create stars and develop talented individuals to achieve their dreams.</p>
+				<div class="work-box">
+					<div class="work">
+
+					   <!--───────────────card───────────────-->
+						<div class="card">
+							<img class="work-img" src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80">
+							<a href="" target="_blank"> <!--Link to project-->
+							<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
+						</div>
+
+						<div class="card">
+							<img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+							<a href="" target="_blank"> <!--Link to project-->
+							<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
+						</div> 	  
+					</div>
+				</div>
+			</div>
+						
+			<!--──────────────Contact────────────────-->
+			<div id="contact">
+
+
+<div style="display: flex; flex-direction: column; align-items: center;">				<!--────social media links─────-->
+				<h3>Contact.<hr></h3>
+				<p style="color: black;"> Feel free to contact me on my social media.</p></div>
+				<div class="social-media">
+					<a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
+					<a href="#" target="_blank"><i class='fab fa-facebook'></i></a>
+					<a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+
+			<form action="" method="post" hidden>
+				<div>
+					<label for="login-email">Email Address</label><br>
+					<input type="email" name="login-email" id="login-email" placeholder="Email Address" autofocus>
+				</div>
+				
+				<div>
+					<label for="login-password">Password</label><br>
+					<input type="password" name="login-password" id="login-password" placeholder="Password">
+				</div>
+						   
+				<label for="check-box">
+					<input type="checkbox" name="check-box" id="check-box">
+					Remember me
+				</label><br>
+				<button>Sign In</button>
+	
+			</form>
+		</main>
+
+		<footer class="copyright">© 2023 
+			<a href="#home" target="_self"> Paul Depay Fc.</a>
+	   </footer>
+
+	</div>
+	
+	<script src="./main.js"></script>
+</body>
+</html>
